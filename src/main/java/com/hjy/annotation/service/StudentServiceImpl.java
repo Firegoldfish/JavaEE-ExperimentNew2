@@ -1,5 +1,5 @@
-package com.hjy.service;
-import com.hjy.dao.StudentDao;
+package com.hjy.annotation.service;
+import com.hjy.annotation.dao.StudentDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

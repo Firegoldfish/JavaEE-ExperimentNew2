@@ -1,4 +1,4 @@
-package com.hjy.dao;
+package com.hjy.annotation.dao;
 
 import org.springframework.stereotype.Repository;
 

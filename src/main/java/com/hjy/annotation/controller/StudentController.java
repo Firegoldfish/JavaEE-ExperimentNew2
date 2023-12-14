@@ -1,10 +1,10 @@
-package com.hjy.controller;
+package com.hjy.annotation.controller;
 
-import com.hjy.service.StudentService;
+import com.hjy.annotation.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-@Controller
+@Controller("studentController")
 public class StudentController {
     @Autowired
     StudentService studentService;
